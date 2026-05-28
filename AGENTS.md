@@ -42,16 +42,16 @@ Node editor for scripting game flow in Unreal Engine.
 - Not implementing `Cleanup()` — leaks resources/delegates
 - Missing PreDefault dependencies — load order matters
 
-See `.claude/patterns.md` for implementation patterns.
+See `.agents/patterns.md` for implementation patterns.
 
 ## Integration Points
 
 - Used by: SUQSFlow (quest nodes), HorrorFeatures (narrative nodes)
-- See `.claude/plugin-integration.md` for cross-plugin dependency matrix
+- See `.agents/plugin-integration.md` for cross-plugin dependency matrix
 
 ## Human Review Required
 
 - Changes to `UFlowNode` base class
 - Changes to `UFlowAsset` or serialization format
 - Adding new pin types or connection policies
-- See `.claude/human-review-checklist.md` for full list
+- See `.agents/human-review-checklist.md` for full list
